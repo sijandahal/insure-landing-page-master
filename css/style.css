@@ -218,7 +218,7 @@ nav ul a {
     background-position-y: bottom;
     padding: 120px 0px;
     height: 550px;
-    margin-bottom: 200px;
+    margin-bottom: 180px;
     z-index: 555;
   }
 
@@ -241,7 +241,7 @@ nav ul a {
     background-size: contain;
     background-position: left;
     width: 500px;
-    height: 400px; 
+    height: 450px; 
     top: 73%; 
     z-index: -99999;
 }
@@ -310,7 +310,7 @@ nav ul a {
  }
  .details h1 {
    margin-bottom: 30px;
-   color: var(--DarkViolet);
+   color: var(--VeryDarkViolet);
  }
  
 .process {
@@ -320,8 +320,9 @@ nav ul a {
  grid-gap: 35px;
 }
 
-.process .step h2 {
- color: var(--VeryDarkViolet);
+.process .steps h2 {
+ color: hsl(270, 3%, 24%);
+ font-size: 28px;
 
 }
 .process .steps p {
@@ -534,9 +535,11 @@ nav ul a {
      }
 
      .details .line1 {
-        display: block;
+      display: block;
      margin: 50px auto; 
      }
+
+
      .process {
       align-items: center;
       align-content: center;
