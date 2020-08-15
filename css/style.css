@@ -137,10 +137,28 @@ nav ul a {
   border : 2px solid black;
 }
 
+.burger {
+
+}
+
  .burger {
    display: none;
    cursor : pointer;
  }
+
+.burger__image.toggle {
+  display: none;
+}
+
+ .close {
+   display: none;
+ }
+
+ .close.toggle {
+   display: block;
+ }
+
+ 
 
   @media (max-width:1120px) {
     nav ul {
