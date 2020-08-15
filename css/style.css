@@ -179,6 +179,7 @@ nav ul a {
      color : white;
      font-weight: 700;
      margin: 50px;
+     font-size: 22px;
    }
 
    .active {
@@ -582,6 +583,11 @@ nav ul a {
     background-size: cover;
     object-fit: cover;
     height: 500px;
+  }
+
+  .nav-btn {
+    margin: 0px;
+    padding: 10px 75px;
   }
 
 }
