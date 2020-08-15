@@ -75,7 +75,7 @@ ul {
 
 .main__container {
   width : 100%;
-  max-width: 1024px;
+  max-width: 1048px;
   height: 100%;
   margin: auto;
   display: flex;
@@ -218,7 +218,7 @@ nav ul a {
     background-position-y: bottom;
     padding: 120px 0px;
     height: 550px;
-    margin-bottom: 60px;
+    margin-bottom: 200px;
     z-index: 555;
   }
 
@@ -310,6 +310,7 @@ nav ul a {
  }
  .details h1 {
    margin-bottom: 30px;
+   color: var(--DarkViolet);
  }
  
 .process {
@@ -320,7 +321,7 @@ nav ul a {
 }
 
 .process .step h2 {
-  color: var(--DarkViolet);
+ color: var(--VeryDarkViolet);
 
 }
 .process .steps p {
