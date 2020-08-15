@@ -552,6 +552,7 @@ nav ul a {
   .mobile__details:after {
     position: absolute;
     content: '';
+    z-index: -555555;
   }
 
   .mobile__details:before {
