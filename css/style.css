@@ -552,7 +552,6 @@ nav ul a {
   .mobile__details:after {
     position: absolute;
     content: '';
-    z-index: -555555;
   }
 
   .mobile__details:before {
@@ -564,6 +563,7 @@ nav ul a {
     background-size: contain;
     top: 0;
     left: 0;
+    z-index: -5555;
   }
 
   .mobile__details:after {
@@ -575,6 +575,7 @@ nav ul a {
     background-size: contain;
     bottom: -199px;
     right: 0;
+    z-index: -88888;
   }
 
   .mobile__image {
