@@ -182,6 +182,7 @@ nav ul a {
     background-size: contain;
      transition: ease .5s;
      overflow : hidden;
+     top: 96px;
    }
 
    nav ul li  {
