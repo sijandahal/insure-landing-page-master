@@ -137,13 +137,10 @@ nav ul a {
   border : 2px solid black;
 }
 
-.burger {
-
-}
-
  .burger {
    display: none;
    cursor : pointer;
+   height: auto;
  }
 
 .burger__image.toggle {
@@ -155,7 +152,7 @@ nav ul a {
  }
 
  .close.toggle {
-   display: block;
+   display: inline-block;
  }
 
  
